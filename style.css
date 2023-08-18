@@ -102,6 +102,7 @@ nav ul li a:hover::after {
 #about {
     padding: 80px 0px;
     color: #ababab;
+  
 }
 
 .row {
@@ -379,7 +380,7 @@ width: 100%;
 .btn.btn3 {
     background: transparent;
     margin-top: 30px;
-    transition: background 0.5;
+    transition: 0.5s;
 
 }
 
@@ -446,11 +447,15 @@ nav .fas {
         position: fixed;
         top: 0;
         width:270px;
-        right: -200px;
+        right: -300px;
         height: 100vh;
         padding-top: 50px;
-        z-index: 2;
+        /* z-index: 2; */
         transition:right 0.5s ;
+        
+    }
+    nav i{
+        margin-right: 15px;
     }
 
     nav ul li {
