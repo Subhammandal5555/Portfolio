@@ -262,7 +262,10 @@ width: 100%;
     display: block;
     transition: transform 0.5s;
 }
-
+.simon{
+    width: 450px;
+    height: 230px;
+}
 .layer {
     width: 440px;
     height: 0;
